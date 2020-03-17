@@ -1,7 +1,6 @@
 import time
 import asyncio
 import aiofiles
-import signal
 
 
 t = time.time()
