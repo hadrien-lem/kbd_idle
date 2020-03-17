@@ -1,0 +1,8 @@
+[Unit]
+Description=Keyboard backlight
+
+[Service]
+ExecStart=/usr/bin/python /home/hadrien/scripts/kbd_idle.py
+
+[Install]
+WantedBy=multi-user.target
